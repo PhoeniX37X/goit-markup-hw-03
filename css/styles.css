@@ -1,0 +1,82 @@
+body{
+    font-family: Roboto;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+h3{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+button{
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    
+}
+button:hover{
+    background-color: #2196F3;
+}
+a:hover,
+a:focus{
+    color: var(--pretty-color);
+}
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.header{
+    
+
+}
+.navigation{
+
+}
+.nav-buttons:hover{
+    color: #2196F3;
+    
+}
+.nav-contacts {
+    
+}
+.filters{
+   
+}
+.main-section{
+
+}
+.princips{
+
+}
+.activities{
+
+}
+.our-team{
+
+}
+.footer{
+    
+}
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    
+}
+.logo1{
+    color: #2196F3;
+    font-size: 26px;
+}
+li{
+    list-style-type:none;
+}
