@@ -1,4 +1,7 @@
-h1{
+body{
+    font-family: roboto;
+}
+.main-congr{
     font-size: 44px;
     line-height: 60px;
     font-weight: 900;
@@ -6,20 +9,21 @@ h1{
     text-transform: uppercase;
     letter-spacing: 0.06em;   
 }
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-/*верхняя навигация*/
-nav {
+.navigation-line{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items:center;
     width: 1600px;
+    
 }
+.navigation, .nav-contacts {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /*логотип*/
 .logo {
@@ -28,12 +32,17 @@ nav {
     font-weight: 700;
     line-height: 31px;
     margin-left: 215px;
+    color: black;
+}
+.logo:hover{
+    color: black;
 }
 
 .logo1 {
     color: #2196F3;
 }
-/*логотип*/
+
+/*верхняя навигация*/
 
 .navigation {
     display: flex;
@@ -44,24 +53,36 @@ nav {
     font-weight: 500;
     line-height: 16px;
     margin-left: 94px;
-    font-family: roboto;
-
+}
+.nav-buttons{
+    color: black;
+}
+.nav-buttons:hover{
+    color: #2196F3;
+}
+.nav-buttons:active{
+    color: aqua;
 }
 .nav-email {
    margin-left: 331px;
+   color: #757575;
 }
-
 .nav-tel{
-    margin-left: 50px;   
+    margin-left: 50px;
+    color: #757575;
 }
-.nav-contacts li{
-    display: inline-flex;
-    
-}.nav-buttons:hover {
+.nav-email:hover {
+color: #2196F3;
+}
+.nav-tel:hover{
     color: #2196F3;
 }
-.nav-contacts:hover {
-    color: #2196F3;
+.nav-email, .nav-tel, .logo, .nav-buttons {
+text-decoration: none;
+
+}
+.nav-contacts{
+    display: inline-flex; 
 }
 
 /*главная секция*/
@@ -83,9 +104,11 @@ nav {
     letter-spacing: 0.06em;
 }
 /**/
-h3{
+.title-h3 {
     font-size: 18px;
     font-weight: 700;
+    line-height: 36px;
+ 
 }
 h2{
     font-size: 36px;
@@ -93,12 +116,9 @@ h2{
     font-weight: bold;
     letter-spacing: 0.03em;
 }
-p{
-    font-weight: 400;
-    color: #757575;
-}
+
 /*кнопки*/
-button{
+.button{
     font-family: roboto;
     font-size: 16px;
     line-height: 26px;
@@ -107,25 +127,19 @@ button{
     border: none;
     border-radius: 4px;
     margin-right: 8px;
+    
 }
-
-button:hover{
+.button:hover{
     background-color: #2196F3;
     color:#ffffff;
-}
-a:hover,
-a:focus{
-    color: var(--pretty-color);
-}
-a {
-    text-decoration: none;
-    color:rgb(0, 0, 0); 
 }
 
 /*портфолио проекты*/
 .filters{
    display: flex;
    justify-content: center;
+    list-style: none;
+     
 }
 .projects-list{
     display: flex;
@@ -133,6 +147,8 @@ a {
 }
 .project{
     margin: 30px 30px;
+       list-style: none;
+ 
 }
 
 .princips-list h3{
@@ -144,24 +160,20 @@ a {
     display: inline-table; 
     align-items: center;
     font-size: 14px;
-    line-height: 24px;
-    
+    line-height: 24px;    
 }
-.activities{
 
-}
 .activities-list{
     display: inline-flex;
     justify-content: center;
     margin: 50px 30px 94px 0
 }
-.our-team{
- 
-}
+
 .team-list{
     align-items: center;
     display: flex;   
     line-height: 19px;
+    list-style: none;
 }
 .team-card{
     margin: 50px 30px 94px 0
@@ -172,19 +184,30 @@ a {
 }
 .role{
     font-size: 16px;
-    
 }
-
-
 /*нижняя часть*/
-footer{
+.footer{
+    max-width: 1600px;
     background-color:#2F303A;
 }
-address{
+.address{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    color: #ffffff;
+}
+.footer-info{
+    text-decoration: none;
+    list-style: none;
     font-size: 14px;
     font-style: normal;
     line-height: 24px;
 }
-.address{
-    color: #ffffff;
+.nav-email-down, .nav-tel-down{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
 }
